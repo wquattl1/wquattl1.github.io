@@ -14,13 +14,11 @@ body {
 .header {
 	position: relative;
     bottom: 59px;
-    background-color: #000000;
 	color: black;
     text-align: center;
 	font-family: "Gill Sans MT", Palatino, Arial, verdana;
 	font-size: 20px;
 	width: 100%;
-    border-bottom: 4px solid black;
 }
 h2 {
 	font-size: 28px;
