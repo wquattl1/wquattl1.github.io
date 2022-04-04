@@ -8,8 +8,8 @@ body {
 }
 .headlogo {
 	text-align: center;
-	max-width: auto;
-	height: 15%;
+	width: 400px;
+	height: auto;
 }
 .header {
 	position: relative;
