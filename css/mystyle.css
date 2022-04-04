@@ -3,7 +3,7 @@ body {
   margin-right: 3em;
   margin-bottom: 3em;
   margin-top: 0;
-  background-color: #000000;
+  background-color: #FFFF00;
   height:100%;
 }
 .headlogo {
@@ -12,7 +12,7 @@ body {
 .header {
 	position: relative;
     bottom: 59px;
-    background-color: #FFFF00;
+    background-color: #000000;
 	color: black;
     text-align: center;
 	font-family: "Gill Sans MT", Palatino, Arial, verdana;
