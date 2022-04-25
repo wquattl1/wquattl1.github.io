@@ -1,26 +1,39 @@
+* {
+    box-sizing: border-box;
+}
 body {
   margin-left: 3em;
   margin-right: 3em;
   margin-bottom: 3em;
   margin-top: 0;
-  background-color: #FFBF00;
+  background-color: #d3e7ea;
   height:100%;
 }
 .headlogo {
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
-	width:50%;
 }
 .header {
 	position: relative;
     bottom: 59px;
+    background-color: #d3e7ea;
 	color: black;
     text-align: center;
 	font-family: "Gill Sans MT", Palatino, Arial, verdana;
 	font-size: 20px;
 	width: 100%;
+    border-bottom: 4px solid black;
 }
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+	position: relative;
+    bottom:20px;
+} 
 h2 {
 	font-size: 28px;
 	font-family: Arial, verdana;
@@ -38,6 +51,7 @@ h4 {
 }
 
 h3 {
+	position: relative;
     bottom:20px;
 	font-size: 18px;
 	font-family: Arial, verdana;
@@ -62,9 +76,10 @@ p {
     bottom:20px;
 	
 }
+/* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #FFFFFF;
+    background-color: #c4e5f2;
 	border-top: 4px solid black;
 	
 	border-bottom: 4px solid black;
@@ -102,6 +117,34 @@ a:hover {
 a:visited {
 	color:red;
 }
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 14px;
+}
+
+.left, .right {
+  width: 20%;
+  position: relative;
+    bottom: 80px;
+}
+
+.middle {
+  width: 60%;
+   background-color:#e8f4f3;
+ position: relative;
+    bottom: 80px;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}  
+
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -143,6 +186,9 @@ a:visited {
 	position: relative;
     bottom:20px;
 }
+ 
+
+
 .button {
 background-color: white;
     border: 1px solid #c4e5f2;
@@ -188,5 +234,341 @@ background-color: #FFFF66;
 #assistant_position:hover {
 background-color: #FFFF66;
 	color: black;
+}
+
+#Foundations {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Foundations:hover {
+background-color: #FFFF66;
+	color: black;
+}
+
+#Foundations1 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Foundations1:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Foundations2 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Foundations2:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Foundations3 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Foundations3:hover {
+background-color: #FFFF66;
+	color: black;
+}	
+#Software {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Software:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Software3 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Software3:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Software1 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Software1:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Software2 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Software2:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Delivery {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Delivery:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Delivery1 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Delivery1:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Delivery2 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Delivery2:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Delivery3 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Delivery3:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Commerce {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Commerce:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Commerce1 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Commerce1:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Commerce2 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Commerce2:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Commerce3 {	
+ width: 50%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+}
+#Commerce3:hover {
+background-color: #FFFF66;
+	color: black;
+}
+#Table1 td, #Table1 th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#Table1 tr:nth-child(even){background-color: #f2f2f2;}
+
+#Table1 tr:hover {background-color: #ddd;}
+
+#Table1 th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#Table1 {
+    
+    border-collapse: collapse;
+    width: 90%;
+	
+}
+.tableinfo {
+	font-family: Georgia, serif;
+	font-size:16px;
+		position: relative;
+    bottom: 0px;
+}
+
+#result {
+	color: #E50914;
+		position: relative;
+    bottom: -10px;
+}
+
+#result2 {
+	color: #E50914;
+			position: relative;
+    bottom: -10px;
+}
+#result3 {
+	color: #E50914;
+			position: relative;
+    bottom: -10px;
+}
+#result4 {
+	color: #E50914;
+			position: relative;
+    bottom: -10px;
+}
+
+
+#Table2 td, #Table2 th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#Table2 tr:nth-child(even){background-color: #f2f2f2;}
+
+#Table2 tr:hover {background-color: #ddd;}
+
+#Table2 th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#Table2 {
+    
+    border-collapse: collapse;
+    width: 90%;
+}
+
+
+
+
+#Table3 td, #Table3 th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#Table3 tr:nth-child(even){background-color: #f2f2f2;}
+
+#Table3 tr:hover {background-color: #ddd;}
+
+#Table3 th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#Table3 {
+    
+    border-collapse: collapse;
+    width: 90%;
+}
+
+#Table4 td, #Table4 th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#Table4 tr:nth-child(even){background-color: #f2f2f2;}
+#Table4 tr:hover {background-color: #ddd;}
+#Table4 th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#Table4 {
+    
+    border-collapse: collapse;
+    width: 90%;
+}
+
+
+form {
+ margin: auto;
+    width: 75%;
+   
+    padding: 0px 100px;
+	font-family: Arial;
+	position: relative;
+    bottom:20px;
+}
+input[type=text], select, textarea {
+    width: 65%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
 }
 </style>
