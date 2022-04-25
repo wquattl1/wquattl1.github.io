@@ -51,7 +51,6 @@
 		var acceptedMsg2 = "<p>Congratulations! You have met the basic requirements for the Software Developer student assistant position! We will move forward with your application process. </p>"
 		var denialMsg3 = "<p>Thank you for your interest in the Data Analytics student assistant position. We are not able to move forward with your application process.</p>"
 		var acceptedMsg3 = "<p>Congratulations! You have met the basic requirements for the Data Analytics student assistant position! We will move forward with your application process. </p>"
-<!-- FUNCTION TO CALCULATE UNDERGRAD POSITION 1 -->
 		function getGrdPtAvgungrad1() {
 			var gpaTotal = null,
 			message = null,
@@ -69,7 +68,6 @@
 			else message = denialMsg;
 			document.getElementById("result").innerHTML = message;
 		}
-<!-- FUNCTION TO CALCULATE UNDERGRAD POSITION 2 -->
 		function getGrdPtAvgungrad2() {
 			var gpaTotal = null,
 			message = null,
@@ -87,7 +85,6 @@
 			else message = denialMsg1;
 			document.getElementById("result2").innerHTML = message;
 		}
-<!-- FUNCTION TO CALCULATE GRADUATE POSITION 1 -->
 		function getGrdPtAvggrad1() {
 			var gpaTotal = null,
 			message = null,
@@ -104,8 +101,7 @@
 			if (gpaTotal >= 3.7) message = acceptedMsg2 + txt.link("enterinfo.php");
 			else message = denialMsg2;
 			document.getElementById("result3").innerHTML = message;
-		}
-<!-- FUNCTION TO CALCULATE GRADUATE POSITION 2 -->	
+		}	
 		function getGrdPtAvggrad2() {
 			var gpaTotal = null,
 			message = null,
