@@ -143,4 +143,50 @@ a:visited {
 	position: relative;
     bottom:20px;
 }
+.button {
+background-color: white;
+    border: 1px solid #c4e5f2;
+    color: black;
+    padding:4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	 position: relative;
+    bottom: 10px;
+	border-radius: 4px;
+}
+.button:hover {
+background-color: #FFFF66;
+	color: black;
+}
+
+#school_level {
+    width: 40%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+		position: relative;
+    bottom:20px;
+}
+#school_level:hover {
+background-color: #FFFF66;
+	color: black;
+}
+
+#assistant_position {
+	  width: 40%;
+    padding: 4px;
+    border: 1px solid #c4e5f2;
+    border-radius: 4px;
+    resize: vertical;
+		position: relative;
+    bottom:20px;
+}
+#assistant_position:hover {
+background-color: #FFFF66;
+	color: black;
+}
 </style>
